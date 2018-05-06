@@ -1,0 +1,16 @@
+
+Work!
+#Install Plugin Go lang
+-https://plugins.jetbrains.com/plugin/5047?pr=phpStorm&showAllUpdates=true
+-File -> Setting -> Plugin -> Install Plugin .. Disk -> Go.446.zip
+-Lang... -> Go -> GO DK -> Path : C:\Go
+-> ref : https://www.youtube.com/watch?v=enS-f644KYM
+
+#Register New File Type Association เพื่อให้ WebStorm มันอ่านไฟล์ GO ได้
+=> Setting -> Editor -> File Types -> Registered Pattern -> *.go -> OK
+
+OR
+-File -> Setting -> Plugin -> Browes Repo.. -> GO
+
+Not Work!
+http://networkstatic.net/installing-golang-ide-support-intellij/

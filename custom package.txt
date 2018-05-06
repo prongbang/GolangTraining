@@ -1,0 +1,37 @@
+ref : https://golang.org/doc/code.html
+
+$GOPATH = c:\GO\
+
+1.Create a directory inside your workspace in which to keep source code:
+$ mkdir -p $GOPATH/src/github.com/user
+
+2.Create a corresponding package directory inside your workspace:
+$ mkdir $GOPATH/src/github.com/user/hello
+
+3.Create a file named hello.go :
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Printf("Hello, world.\n")
+}
+
+4.build and install that program with the go tool:
+$ go install github.com/user/hello
+
+5.run the program by typing its full path at the command line:
+$ $GOPATH/bin/hello
+
+
+
+
+
+
+
+
+
+
+
+
+
